@@ -1,5 +1,101 @@
-.App {
-  background-color: pink;
-  height: 500px;
-  width: 500px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900);
+
+.nav {
+  background-color: black;
+  z-index: 1;
+  position: fixed;
+  height: 100px;
+  width: 100vw;
 }
+
+.nav-logo {
+  margin: 10px 0 0 10px;
+  height: 150px;
+  transform: rotate(-20deg);
+}
+
+.nav-links {
+  color: white;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(204, 204, 204, 0.9)
+        url('../../src/assets/mirror_horizontal.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-logo {
+  height: 500px;
+  background-attachment: fixed;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 250px;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h2 {
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+
+.overlay {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  bottom: 0;
+}
+
+.brick {
+  width: 5%;
+  background: rgba(255, 255, 255, .7);
+}
+
+.overlay-small {
+  height: 100px;
+}
+
+.overlay-med {
+  height: 300px;
+}
+
+.overlay-large {
+  height: 500px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-title {
+  font-size: 60px;
+}
+
+
