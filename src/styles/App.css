@@ -1,22 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900);
 
-.nav {
-  background-color: black;
-  z-index: 1;
-  position: fixed;
-  height: 100px;
-  width: 100vw;
-}
-
-.nav-logo {
-  margin: 10px 0 0 10px;
-  height: 150px;
-  transform: rotate(-20deg);
-}
-
-.nav-links {
-  color: white;
-}
+@import './Nav.css';
 
 .hero {
   position: relative;
@@ -33,7 +17,8 @@
 }
 
 .hero-logo {
-  height: 500px;
+  height: 350px;
+  margin-right: 12px;
   background-attachment: fixed;
 }
 
