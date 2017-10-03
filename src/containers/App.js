@@ -3,6 +3,7 @@ import '../styles/App.css';
 import logo from '../assets/logo.svg'
 
 import Nav from '../components/Nav'
+import About from '../components/About'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <section className="hero">
           <img className="hero-logo" src={logo} alt='mirrored background'/>
         </section>
+        <About />
      
       </div>
     );

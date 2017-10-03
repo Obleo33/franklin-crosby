@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900);
 
 @import './Nav.css';
+@import './About.css';
 
 .hero {
   position: relative;
@@ -20,6 +21,32 @@
   height: 350px;
   margin-right: 12px;
   background-attachment: fixed;
+}
+
+.overlay {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  bottom: 0;
+}
+
+.brick {
+  width: 5%;
+  background: rgba(255, 255, 255, .7);
+}
+
+.overlay-small {
+  height: 100px;
+}
+
+.overlay-med {
+  height: 300px;
+}
+
+.overlay-large {
+  height: 500px;
 }
 
 .contact {
@@ -48,39 +75,5 @@
   font-size: 20px;
 }
 
-
-.overlay {
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  bottom: 0;
-}
-
-.brick {
-  width: 5%;
-  background: rgba(255, 255, 255, .7);
-}
-
-.overlay-small {
-  height: 100px;
-}
-
-.overlay-med {
-  height: 300px;
-}
-
-.overlay-large {
-  height: 500px;
-}
-
-.about {
-  text-align: center;
-}
-
-.about-title {
-  font-size: 60px;
-}
 
 

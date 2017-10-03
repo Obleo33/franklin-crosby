@@ -1,0 +1,14 @@
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 150px;
+}
+
+.about-title {
+  font-size: 60px;
+  font-weight: 900;
+}
