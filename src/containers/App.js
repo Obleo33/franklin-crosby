@@ -4,6 +4,7 @@ import logo from '../assets/logo.svg'
 
 import Nav from '../components/Nav'
 import About from '../components/About'
+import Skills from '../components/Skills'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <img className="hero-logo" src={logo} alt='mirrored background'/>
         </section>
         <About />
+        <Skills />
      
       </div>
     );
