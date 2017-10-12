@@ -1,11 +1,36 @@
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900);
 
 @import './Nav.css';
 @import './About.css';
+@import './Projects.css';
+@import './Skills.css';
+@import './Contact.css';
+
+
+/*
+  #FFC40D
+  rgb(255,196,13);
+  #0A0401
+  rgb(10,4,1)
+  #7A00FF
+  rgb(122,0,255)
+  #FF0DBD
+  rgb(255,13,189)
+  #0DC9FF
+  rgb(13,201,255)
+*/
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .hero {
   position: relative;
   height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,59 +46,5 @@
   height: 350px;
   margin-right: 12px;
   background-attachment: fixed;
+  transform: rotate(-20deg);
 }
-
-.overlay {
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  bottom: 0;
-}
-
-.brick {
-  width: 5%;
-  background: rgba(255, 255, 255, .7);
-}
-
-.overlay-small {
-  height: 100px;
-}
-
-.overlay-med {
-  height: 300px;
-}
-
-.overlay-large {
-  height: 500px;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 250px;
-  bottom: 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact h2 {
-  font-weight: 100;
-  font-size: 50px;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.contact p {
-  color: white;
-  font-weight: 300;
-  font-size: 20px;
-}
-
-
-
