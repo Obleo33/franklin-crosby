@@ -19,13 +19,37 @@
 }
 
 .nav-links {
-  color: white;
-  display: flex;
+  color: #FFC40D;
+  position: fixed;
+  right: 0;
+  top: 59px;
   list-style: none;
-  justify-content: space-around;
-  width: 50%;
+  flex-direction: column;
+  text-align: right;
+  width: 115px;
+  padding-right: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0 0 0 20px;
+  padding-bottom: 15px;
 }
 
-.nav-links li {
+.nav-links li{
+  margin-bottom: 15px;
+}
 
+.nav-links li:hover {
+  cursor: pointer;
+  color:  #FF0DBD;
+}
+
+.nav-button{
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
 }

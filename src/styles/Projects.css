@@ -1,0 +1,35 @@
+#projects {
+	width: 70%;
+}
+
+#projects h2 {
+	font-size: 60px;
+  	margin: 10px 0 5px 0;
+  	font-weight: 900;
+}
+
+.project {
+	outline: 1px solid purple;
+}
+
+.project-img {
+	width: 300px;
+	height: 300px;
+	outline: 1px solid pink;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.jetfuel-img {
+	background-image: url('../../src/assets/projects/jetfuel.png');
+}
+
+.movingshadows-img {
+	background-image: url('../../src/assets/projects/movingshadows.png');
+
+}
+
+.wbwr-img {
+	background-image: url('../../src/assets/projects/wbwr.png');
+}

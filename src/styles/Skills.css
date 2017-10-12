@@ -1,0 +1,22 @@
+#skills {
+	width: 100vw;
+	background-color: rgba(13,201,255, 0.7);
+	display: flex;
+	justify-content: center;
+}
+
+.skills-container {
+	width: 70%;
+}
+
+.skills-container h2 {
+	font-size: 60px;
+  	margin: 10px 0 5px 0;
+  	font-weight: 900;
+}
+
+.listed-skills {
+	display: flex;
+	justify-content: space-around;
+
+}
