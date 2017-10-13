@@ -14,10 +14,10 @@ const Nav = (props) => {
 		<nav className="nav">
 			<img className="nav-logo" src={logo} alt="small logo"/>
 
-			<h1>FRANKLIN<span>CROSBY</span></h1>
+			<h1 className="myname">FRANKLIN<span>CROSBY</span></h1>
 
 			{ props.viewMenu && <ul className="nav-links">
-				<li>HELLO</li>
+				<a><li>HELLO</li></a>
 				<li>SKILLS</li>
 				<li>PROJECTS</li>
 				<li>CONTACT</li>
