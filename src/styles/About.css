@@ -1,18 +1,24 @@
 
-.about {
-  font-size: 18px;
-  font-weight: 300;
-  width: 70%;
-  padding-bottom: 75px;
+.about
+{
+    font-size: 18px;
+    font-weight: 300;
+
+    width: 70%;
+    padding-bottom: 75px;
 }
 
-.about-title {
-  font-size: 60px;
-  margin: 75px 0 5px 0;
-  font-weight: 900;
-  color: #7A00FF;
+.about-title
+{
+    font-size: 60px;
+    font-weight: 900;
+
+    margin: 75px 0 5px 0;
+
+    color: #7a00ff;
 }
 
-.about p {
-	margin-left: 20px;
+.about p
+{
+    margin-left: 20px;
 }

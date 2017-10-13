@@ -21,30 +21,45 @@
   rgb(13,201,255)
 */
 
-#app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#app
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
 }
 
-.hero {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(204, 204, 204, 0.9)
-        url('../../src/assets/mirror_horizontal.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+.hero
+{
+    position: relative;
+
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+
+    background: rgba(204, 204, 204, .9)
+    url('../../src/assets/mirror_horizontal.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-logo {
-  height: 350px;
-  margin-right: 12px;
-  background-attachment: fixed;
-  transform: rotate(-20deg);
+.hero-logo
+{
+    height: 350px;
+    margin-right: 12px;
+
+    transform: rotate(-20deg);
+
+    background-attachment: fixed;
+}
+
+a:link
+{
+    color: inherit;
 }

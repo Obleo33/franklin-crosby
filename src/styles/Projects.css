@@ -1,74 +1,95 @@
-#projects {
-	width: 70%;
-	padding-bottom: 75px;
+#projects
+{
+    width: 70%;
+    padding-bottom: 75px;
 }
 
-.projects-title {
-	font-size: 60px;
-  	margin: 10px 0 5px 0;
-  	font-weight: 900;
-  	color: #FFC40D;
-  	margin-top: 75px;
+.projects-title
+{
+    font-size: 60px;
+    font-weight: 900;
+
+    margin: 10px 0 5px 0;
+    margin-top: 75px;
+
+    color: #ffc40d;
 }
 
-.project {
-	border: 3px solid #7A00FF;
-	border-radius: 0 30px 0 0;
-	flex-basis: 49%;
-	margin: 10px 0;
-	display: flex;
+.project
+{
+    display: flex;
+
+    margin: 10px 0;
+
+    border: 3px solid #7a00ff;
+    border-radius: 0 30px 0 0;
+
+    flex-basis: 49%;
 }
 
-.project-title {
-	height: 40px;
-	margin: 5px 20px;
-	font-size: 25px;
-	z-index: 1;
-	color: #0DC9FF;
-	font-weight: 700;
-	border-radius: 0 30px 0 0;
- 
+.project-title
+{
+    font-size: 25px;
+    font-weight: 700;
+
+    z-index: 1;
+
+    height: 40px;
+    margin: 5px 20px;
+
+    color: #0dc9ff;
+    border-radius: 0 30px 0 0;
 }
 
-.project section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
+.project section
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
 }
 
-.project-img {
-	width: 250px;
-	height: 250px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin: 10px 20px;
-	cursor: pointer;
-	border: 1px solid gray
+.project-img
+{
+    width: 250px;
+    height: 250px;
+    margin: 10px 20px;
+
+    cursor: pointer;
+
+    border: 1px solid gray;;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.project-img:hover {
-	border: 2px solid #FF0DBD;
+.project-img:hover
+{
+    border: 2px solid #ff0dbd;
 }
 
-.jetfuel-img {
-	background-image: url('../../src/assets/projects/jetfuel.png');
+.jetfuel-img
+{
+    background-image: url('../../src/assets/projects/jetfuel.png');
 }
 
-.movingshadows-img {
-	background-image: url('../../src/assets/projects/movingshadows.png');
-
+.movingshadows-img
+{
+    background-image: url('../../src/assets/projects/movingshadows.png');
 }
 
-.wbwr-img {
-	background-image: url('../../src/assets/projects/wbwr.png');
+.wbwr-img
+{
+    background-image: url('../../src/assets/projects/wbwr.png');
 }
 
-.project-desctiption {
-	padding-right: 20px;
+.project-desctiption
+{
+    padding-right: 20px;
 }
 
-.project-links a {
-	margin: 10px;
+.project-links a
+{
+    margin: 10px;
 }

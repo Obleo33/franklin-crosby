@@ -11,8 +11,8 @@ const About = () => {
 			<p>Since a young age, I have been obsessed with puzzles, games and building. It’s safe to say I had an epic Lego collection. I love figuring out how things work and taking that knowledge to build new things. As a developer, I am constantly presented with new and challenging puzzles. It is my passion to draw from everything around me to fabricate a solution and work with others to bring ideas to life. 
 			</p>
 
-			<h3>What kind of nerd are you:</h3>
-			<p>I belive we are all nerds. Figuring out what gets you worked up is part of the fun and tells you a lot about a person. So what kind of nerd am I? Well, You could say that I am the type of guy that totally geeks out on science ficion, roll playing games, board games, web design, graphic design, industrial design, remote controll quadcopters, movies, comics, video game, my family, my friends and (best for last) my kids </p>
+			<h3>What do you geek out on:</h3>
+			<p>I totally geek out on science ficion, roll playing games, board games, web design, graphic design, industrial design, remote controll quadcopters, movies, comics, video game, my family, my friends and (best for last) my kids </p>
 
 		</article>
 	)
