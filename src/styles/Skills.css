@@ -3,6 +3,7 @@
 	background-color: rgba(13,201,255, 0.7);
 	display: flex;
 	justify-content: center;
+	padding: 10px 0;
 }
 
 .skills-container {
@@ -10,6 +11,7 @@
 }
 
 .skills-container h2 {
+	color: #FF0DBD;
 	font-size: 60px;
   	margin: 10px 0 5px 0;
   	font-weight: 900;
