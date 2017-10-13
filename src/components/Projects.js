@@ -28,7 +28,7 @@ const Projects = () => {
 						</a>
 					<section>
 						<h3 className="project-title">MovingShadows</h3>
-						<p className="project-desctiption">This project is working off the The Movie DB API (https://www.themoviedb.org/documentation/api). Users should be able to sign in and save favorite movies. Once a movie has been added to favorites the user should be able to navigate to a favorites page and remove it.</p>
+						<p className="project-desctiption">This project is working off the The Movie DB API . Users should be able to sign in and save favorite movies. Once a movie has been added to favorites the user should be able to navigate to a favorites page and remove it.</p>
 						<div className="project-links">
 							<a href="https://movingshadows.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live</a>
 							<a href="https://github.com/Obleo33/movie-tracker" target="_blank" rel="noopener noreferrer">GitHub</a>

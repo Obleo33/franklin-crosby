@@ -93,3 +93,23 @@
     background-position: center;
     background-size: cover;
 }
+
+@media (max-width: 500px)
+{
+    .nav
+    {
+        display: block;
+    }
+
+    .nav-logo
+    {
+        display: none;
+    }
+
+    .myname
+    {
+        font-size: 20px;
+
+        margin: 26px 30px;
+    }
+}

@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
 	return(
 		<article className="about">
-			<h2 className="about-title">HELLO!</h2>
+			<h2 className="section-title about-title">HELLO!</h2>
 			<p>I am a Front-end developer with critical skills in communication, team building, design, ideation and management. As a developer, I am constantly learning and building upon my skills with the goal of delivering new and inventive ways to interact with users. My diverse background informs my design, bringing new ideas and strategies to the table.
 			</p> 
 
