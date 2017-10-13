@@ -25,9 +25,53 @@
     color: #ff0dbd;
 }
 
+.skills h3
+{
+    margin: 10px 0;
+}
+
 .listed-skills
 {
     display: flex;
 
     justify-content: space-around;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style: none;
+}
+
+@media (max-width: 600px)
+{
+    .listed-skills
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul
+    {
+        padding: 5px 20px;
+    }
+}
+
+
+@media (max-width: 500px)
+{
+    .skills-title
+    {
+        font-size: 35px;
+    }
+
+    .skills h3
+    {
+        font-size: 20px;
+    }
 }

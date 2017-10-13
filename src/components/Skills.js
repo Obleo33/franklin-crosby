@@ -6,7 +6,7 @@ const Skills = () => {
 			<div className="skills-container">
 				<h2 className="skills-title">Skills</h2>
 				<section className="listed-skills">
-					<article className="skils dev-skills">
+					<article className="skills dev-skills">
 						<h3>Development</h3>
 						<ul>
 							<li>JavaScript ES5/ES6</li>
@@ -24,7 +24,7 @@ const Skills = () => {
 							<li>Webpack</li>
 						</ul>
 					</article>
-					<article className="skils dev-skills">
+					<article className="skills dev-skills">
 						<h3>Design</h3>
 						<ul>
 							<li>Photoshop</li>
@@ -33,7 +33,7 @@ const Skills = () => {
 							<li>Sketch</li>
 						</ul>
 					</article>
-					<article className="skils dev-skills">
+					<article className="skills dev-skills">
 						<h3>Other</h3>
 						<ul>
 							<li>Concept Ideation</li>

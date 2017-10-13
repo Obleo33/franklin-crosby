@@ -58,10 +58,10 @@
 
     cursor: pointer;
 
-    border: 1px solid gray;;
+    border: 1px solid gray;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;;
 }
 
 .project-img:hover
@@ -92,4 +92,33 @@
 .project-links a
 {
     margin: 10px;
+}
+
+
+@media (max-width: 1000px)
+{
+    .project
+    {
+        flex-direction: column;
+    }
+
+    .project-img
+    {
+        position: relative;
+
+        width: 80%;
+        margin: 15px auto;
+
+        background-position: top;
+    }
+
+    .project section
+    {
+        margin: 10px;
+    }
+
+    .project-description
+    {
+        width: 90%;
+    }
 }
