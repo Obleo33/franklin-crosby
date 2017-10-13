@@ -1,59 +1,77 @@
-#contact {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 300px;
-  justify-content: center;
-  align-items: center;
+#contact
+{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 300px;
+    margin-top: 20px;
+
+    background-color: rgba(0, 0, 0, .2);
+
+    justify-content: center;
+    align-items: center;
 }
 
-#contact h2 {
-  font-weight: 700;
-  font-size: 30px;
-  margin-bottom: 10px;
-  color: #FF0DBD;
+#contact h2
+{
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+    color: #ff0dbd;
 }
 
-.contact p {
-  color: white;
-  font-weight: 300;
-  font-size: 20px;
+.contact p
+{
+    font-size: 20px;
+    font-weight: 300;
+
+    color: white;
 }
 
 
-.source-link {
-  font-size: 12px;
-  color: white;
+.source-link
+{
+    font-size: 12px;
+
+    color: white;
 }
 
-.contact-links {
-  display: flex;
+.contact-links
+{
+    display: flex;
 }
 
-.contact-link {
-  height: 50px;
-  width: 50px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 5px 20px;
+.contact-link
+{
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.git {
-  background-image: url('../../src/assets/contact/github.png');
+.git
+{
+    background-image: url('../../src/assets/contact/github.png');
 }
 
-.linkedin {
-  background-image: url('../../src/assets/contact/linkedin.png');
+.linkedin
+{
+    background-image: url('../../src/assets/contact/linkedin.png');
 }
 
-.email {
-  background-image: url('../../src/assets/contact/email.png');
+.email
+{
+    background-image: url('../../src/assets/contact/email.png');
 }
 
-.source-link {
-  font-size: 14px;
+.source-link
+{
+    font-size: 14px;
 }
