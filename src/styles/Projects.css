@@ -1,12 +1,14 @@
 #projects {
 	width: 70%;
+	padding-bottom: 75px;
 }
 
-#projects h2 {
+.projects-title {
 	font-size: 60px;
   	margin: 10px 0 5px 0;
   	font-weight: 900;
   	color: #FFC40D;
+  	margin-top: 75px;
 }
 
 .project {
