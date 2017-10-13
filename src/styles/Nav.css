@@ -18,6 +18,18 @@
   top: 14px;
 }
 
+
+.myname {
+  color: #0DC9FF;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.myname span {
+  font-weight: 100;
+}
+
+
 .nav-links {
   color: #FFC40D;
   position: fixed;

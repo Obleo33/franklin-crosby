@@ -4,19 +4,17 @@
   flex-direction: column;
   width: 100vw;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
   height: 300px;
   justify-content: center;
   align-items: center;
 }
 
-
-
-.contact h2 {
-  font-weight: 100;
-  font-size: 50px;
-  color: white;
-  margin-bottom: 20px;
+#contact h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #FF0DBD;
 }
 
 .contact p {
@@ -29,4 +27,33 @@
 .source-link {
   font-size: 12px;
   color: white;
+}
+
+.contact-links {
+  display: flex;
+}
+
+.contact-link {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px 20px;
+}
+
+.git {
+  background-image: url('../../src/assets/contact/github.png');
+}
+
+.linkedin {
+  background-image: url('../../src/assets/contact/linkedin.png');
+}
+
+.email {
+  background-image: url('../../src/assets/contact/email.png');
+}
+
+.source-link {
+  font-size: 14px;
 }
