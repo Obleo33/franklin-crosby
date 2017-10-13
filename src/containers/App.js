@@ -20,28 +20,26 @@ class App extends Component {
     this.setState({ viewMenu: !this.state.viewMenu })
   }
 
-  linkClick() {
-    console.log('hey');
-  }
-
-
   render() {
     return (
      <div id="app">
         <Nav viewMenu={ this.state.viewMenu } 
-             navClick={ this.navClick.bind(this) }
-             linkClick={ this.linkClick.bind(this) }/>
+             navClick={ this.navClick.bind(this) }/>
 
         <section className="hero">
           <img className="hero-logo" src={logo} alt='mirrored background'/>
         </section>
 
+        <a className="anchor" name="about"></a>
         <About />
 
+        <a className="anchor" name="skills"></a>
         <Skills />
 
+        <a className="anchor" name="projects"></a>
         <Projects />
      
+        <a className="anchor" name="contact"></a>
         <Contact />
       </div>
     );

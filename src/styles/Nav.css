@@ -29,7 +29,6 @@
   font-weight: 100;
 }
 
-
 .nav-links {
   color: #FFC40D;
   position: fixed;
@@ -47,6 +46,10 @@
 
 .nav-links li{
   margin-bottom: 15px;
+}
+
+.nav-links a:visited {
+  color:#FFC40D;
 }
 
 .nav-links li:hover {

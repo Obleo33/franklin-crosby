@@ -17,10 +17,10 @@ const Nav = (props) => {
 			<h1 className="myname">FRANKLIN<span>CROSBY</span></h1>
 
 			{ props.viewMenu && <ul className="nav-links">
-				<a><li>HELLO</li></a>
-				<li>SKILLS</li>
-				<li>PROJECTS</li>
-				<li>CONTACT</li>
+				<a href="#about"><li>HELLO</li></a>
+				<a href="#skills"><li>SKILLS</li></a>
+				<a href="#projects"><li>PROJECTS</li></a>
+				<a href="#contact"><li>CONTACT</li></a>
 			</ul>}
 			<div onClick={ props.navClick } className="nav-button" style={menuStyle(props.viewMenu)}></div>
 		</nav>
@@ -28,5 +28,3 @@ const Nav = (props) => {
 }
 
 export default Nav;
-				// <li>EXPERIENCE</li>
-				// <li>INTERESTS</li>
