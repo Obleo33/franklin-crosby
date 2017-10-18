@@ -32,8 +32,6 @@
     font-size: 25px;
     font-weight: 700;
 
-    z-index: 1;
-
     height: 40px;
     margin: 5px 20px;
 
@@ -123,7 +121,8 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px)
+{
     .projects-title
     {
         font-size: 35px;
