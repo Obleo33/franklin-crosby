@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import logo from '../assets/logo.svg'
+import logo from '../assets/logo_rotate.svg'
 
 import Nav from '../components/Nav'
 import About from '../components/About'
@@ -30,16 +30,12 @@ class App extends Component {
           <img className="hero-logo" src={logo} alt='mirrored background'/>
         </section>
 
-        <a className="anchor" name="about"></a>
         <About />
 
-        <a className="anchor" name="skills"></a>
         <Skills />
 
-        <a className="anchor" name="projects"></a>
         <Projects />
-     
-        <a className="anchor" name="contact"></a>
+
         <Contact />
       </div>
     );

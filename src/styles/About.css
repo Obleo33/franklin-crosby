@@ -1,5 +1,5 @@
 
-.about
+#about
 {
     font-size: 18px;
     font-weight: 300;
@@ -18,7 +18,7 @@
     color: #7a00ff;
 }
 
-.about p
+#about p
 {
     margin-left: 20px;
 }
@@ -30,12 +30,12 @@
         font-size: 35px;
     }
 
-    .about h3
+    #about h3
     {
         font-size: 20px;
     }
 
-    .about p
+    #about p
     {
         font-size: 16px;
     }
