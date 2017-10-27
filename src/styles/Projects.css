@@ -2,17 +2,21 @@
 {
     width: 70%;
     padding-bottom: 75px;
+    color: #333333
 }
 
 .projects-title
 {
-    font-size: 60px;
-    font-weight: 900;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 200px;
+    font-weight: 500;
 
-    margin: 10px 0 5px 0;
-    margin-top: 75px;
+    margin: 75px 0;
 
-    color: #ffc40d;
+    
+    transform: rotate(-20deg);
+
+    ;
 }
 
 .project
@@ -21,7 +25,6 @@
 
     margin: 10px 0;
 
-    border: 3px solid #7a00ff;
     border-radius: 0 30px 0 0;
 
     flex-basis: 49%;
@@ -33,7 +36,7 @@
     font-weight: 700;
 
     height: 40px;
-    margin: 5px 20px;
+    margin: 5px 0;
 
     color: #0dc9ff;
     border-radius: 0 30px 0 0;
@@ -44,7 +47,6 @@
     display: flex;
     flex-direction: column;
 
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -60,11 +62,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;;
+    border: 2px ;
 }
 
 .project-img:hover
 {
-    border: 2px solid #ff0dbd;
+    opacity: .5;
 }
 
 .jetfuel-img
@@ -89,7 +92,7 @@
 
 .project-links a
 {
-    margin: 10px;
+    margin: 0 10px 0 0;
 }
 
 
@@ -104,7 +107,7 @@
     {
         position: relative;
 
-        width: 80%;
+        width: 100%;
         margin: 15px auto;
 
         background-position: top;
@@ -121,11 +124,11 @@
     }
 }
 
-@media (max-width: 500px)
+@media (max-width: 750px)
 {
     .projects-title
     {
-        font-size: 35px;
+        font-size: 150px;
     }
 
     .project-title
@@ -136,5 +139,13 @@
     .project-description
     {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 550px)
+{
+    .projects-title
+    {
+        font-size: 85px;
     }
 }
