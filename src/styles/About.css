@@ -1,65 +1,64 @@
 
 #about
 {
-
     font-size: 18px;
     font-weight: 300;
 
-    width: 70%;
-    padding-bottom: 75px;
-    color: #333333;
     position: relative;
-    height: 100vh;
+
     display: flex;
     flex-direction: column;
+
+    width: 70%;
+    height: 100vh;
+    padding-bottom: 75px;
+
+    color: #333;
+
     justify-content: center;
 }
 
 .about-title
 {
-    font-family: 'Mr Dafoe', cursive;
-    font-size: 250px;
-    font-weight: 500;
+    margin-top: 50px;
 
-    margin: 75px 0 5px 0;
-
-    
-    transform: rotate(-20deg);
+    background-image: url('../../src/assets/about-title.svg');
 }
 
-.about-text {
+.about-text
+{
     display: flex;
     flex-direction: column;
+
     align-items: flex-end;
 }
 
-.about-name {
+.about-name
+{
     font-family: 'Exo 2', sans-serif;
-    font-weight: 100;
     font-size: 45px;
-    margin: 5px 10px;
+    font-weight: 100;
 
+    margin: 5px 10px;
 }
 
-.about-name span{
+.about-name span
+{
     font-weight: 700;
 }
 
 #about p
 {
     font-family: 'Cormorant Garamond', serif;
-    margin: 0 10px;
-    text-align: justify;
     font-size: 30px;
 
+    margin: 0 10px;
+
+    text-align: justify;
 }
 
-@media(max-width: 1000px){
-    .about-title
-    {
-        font-size: 200px;
-    }
-
+@media(max-width: 1000px)
+{
     .about-name
     {
         font-size: 40px;
@@ -71,11 +70,11 @@
     }
 }
 
-@media(max-width: 750px){
+@media(max-width: 750px)
+{
     .about-title
     {
-        font-size: 150px;
-        margin-top: 100px;
+        height: 300px;
     }
 
     .about-name

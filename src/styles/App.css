@@ -38,7 +38,7 @@
     width: 100vw;
     height: 100vh;
 
-    background: rgba(255, 255, 255, 0.5)
+    background: rgba(255, 255, 255, .5)
     url('../../src/assets/mirror_horizontal.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -52,6 +52,14 @@
 a:link
 {
     color: inherit;
+}
+
+.section-title
+{
+    height: 400px;
+    margin: 0 0 -60px 0;
+
+    background-repeat: no-repeat;
 }
 
 
