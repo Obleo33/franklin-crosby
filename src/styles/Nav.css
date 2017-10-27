@@ -1,4 +1,4 @@
-.nav
+#nav
 {
     position: fixed;
     z-index: 1;
@@ -16,27 +16,24 @@
 .nav-logo
 {
     position: fixed;
-    top: 14px;
-    left: 5px;
+    left: 30px;
 
-    height: 30px;
-    margin: 10px 0 0 10px;
-
-    transform: rotate(-20deg);
+    height: 50px;
 }
 
 
 .myname
 {
+    font-family: 'Exo 2', sans-serif;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 100;
 
     color: #0dc9ff;
 }
 
 .myname span
 {
-    font-weight: 100;
+    font-weight: 700;
 }
 
 .nav-links
@@ -95,7 +92,7 @@
 
 @media (max-width: 500px)
 {
-    .nav
+    #nav
     {
         display: block;
     }

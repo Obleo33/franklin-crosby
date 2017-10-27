@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo_white2.svg'
+import logo from '../assets/logo_rotate.svg'
 
 import menu from '../../src/assets/menu-hamburger-closed.svg'
 import menuOpen from '../../src/assets/menu-hamburger-open.svg'
@@ -11,7 +11,7 @@ const menuStyle = (open) => open?
 
 const Nav = (props) => {
 	return(
-		<nav className="nav">
+		<nav id="nav">
 			<img className="nav-logo" src={logo} alt="small logo"/>
 
 			<h1 className="myname">FRANKLIN<span>CROSBY</span></h1>

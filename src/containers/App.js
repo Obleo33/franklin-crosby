@@ -27,10 +27,9 @@ class App extends Component {
              navClick={ this.navClick.bind(this) }/>
 
         <section className="hero">
-          <img className="hero-logo" src={logo} alt='mirrored background'/>
+          <About />
         </section>
 
-        <About />
 
         <Skills />
 
