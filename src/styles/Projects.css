@@ -2,21 +2,15 @@
 {
     width: 70%;
     padding-bottom: 75px;
-    color: #333333
+
+    color: #333;
 }
 
 .projects-title
 {
-    font-family: 'Mr Dafoe', cursive;
-    font-size: 200px;
-    font-weight: 500;
+    margin-top: 75px;
 
-    margin: 75px 0;
-
-    
-    transform: rotate(-20deg);
-
-    ;
+    background-image: url('../../src/assets/projects-title.svg');
 }
 
 .project
@@ -59,10 +53,10 @@
     cursor: pointer;
 
     border: 1px solid gray;
+    border: 2px ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;;
-    border: 2px ;
 }
 
 .project-img:hover
@@ -131,21 +125,25 @@
         font-size: 150px;
     }
 
-    .project-title
-    {
-        font-size: 20px;
-    }
-
     .project-description
     {
         font-size: 16px;
     }
 }
 
-@media (max-width: 550px)
+@media (max-width: 650px)
 {
     .projects-title
     {
-        font-size: 85px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .projects-title
+    {
+        height: 150px;
     }
 }
