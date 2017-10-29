@@ -9,7 +9,7 @@
     flex-direction: column;
 
     width: 70%;
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 75px;
 
     color: #333;
@@ -18,8 +18,6 @@
 }
 
 .about-title {
-    margin-top: 50px;
-
     background-image: url('../../src/assets/about-title.svg');
 }
 

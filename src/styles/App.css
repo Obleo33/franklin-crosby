@@ -37,7 +37,7 @@
     height: 100vh;
 
     background: rgba(255, 255, 255, .5)
-      url('../../src/assets/mirror_horizontal.png');
+    url('../../src/assets/mirror_horizontal.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -52,15 +52,9 @@ a:link {
 }
 
 .section-title {
-    height: 400px;
+    height: 300px;
+    margin-top: 80px !important;
 
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-
-@media (max-width: 500px) {
-  .section-title {
-    margin-top: 75px !important;
-  }
 }
