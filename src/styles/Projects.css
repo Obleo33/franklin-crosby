@@ -8,7 +8,7 @@
 .projects-title {
     margin-top: 75px;
 
-    background-image: url('../../src/assets/projects-title.png');
+    background-image: url('../../src/assets/projects-title.svg');
 }
 
 .project {
@@ -103,7 +103,7 @@
 
 @media (max-width: 750px) {
     .projects-title {
-        font-size: 150px;
+        height: 300px;
     }
 
     .project-description {
@@ -113,8 +113,7 @@
 
 @media (max-width: 650px) {
     .projects-title {
-        height: 200px;
-        margin-bottom: 0;
+        height: 150px;
     }
 }
 
