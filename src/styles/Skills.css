@@ -17,7 +17,7 @@
 }
 
 .skills-title {
-    background-image: url('../../src/assets/skills-title.png');
+    background-image: url('../../src/assets/skills-title.svg');
 }
 
 .skills h3 {
@@ -65,8 +65,7 @@ li {
 
 @media (max-width: 500px) {
     .skills-title {
-        height: 200px;
-        margin-bottom: -35px;
+        height: 150px;
     }
 
     .skills h3 {
