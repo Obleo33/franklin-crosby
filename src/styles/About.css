@@ -1,6 +1,5 @@
 
-#about
-{
+#about {
     font-size: 18px;
     font-weight: 300;
 
@@ -18,23 +17,20 @@
     justify-content: center;
 }
 
-.about-title
-{
+.about-title {
     margin-top: 50px;
 
-    background-image: url('../../src/assets/about-title.svg');
+    background-image: url('../../src/assets/about-title.png');
 }
 
-.about-text
-{
+.about-text {
     display: flex;
     flex-direction: column;
 
     align-items: flex-end;
 }
 
-.about-name
-{
+.about-name {
     font-family: 'Exo 2', sans-serif;
     font-size: 45px;
     font-weight: 100;
@@ -42,13 +38,11 @@
     margin: 5px 10px;
 }
 
-.about-name span
-{
+.about-name span {
     font-weight: 700;
 }
 
-#about p
-{
+#about p {
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
 
@@ -57,51 +51,40 @@
     text-align: justify;
 }
 
-@media(max-width: 1000px)
-{
-    .about-name
-    {
+@media(max-width: 1000px) {
+    .about-name {
         font-size: 40px;
     }
 
-    #about p
-    {
+    #about p {
         font-size: 30px;
     }
 }
 
-@media(max-width: 750px)
-{
-    .about-title
-    {
+@media(max-width: 750px) {
+    .about-title {
         height: 300px;
     }
 
-    .about-name
-    {
+    .about-name {
         font-size: 30px;
     }
 
-    #about p
-    {
+    #about p {
         font-size: 25px;
     }
 }
 
-@media (max-width: 500px)
-{
-    .about-title
-    {
+@media (max-width: 500px) {
+    .about-title {
         font-size: 100px;
     }
 
-    .about-name
-    {
+    .about-name {
         font-size: 20px;
     }
 
-    #about p
-    {
+    #about p {
         font-size: 16px;
     }
 }

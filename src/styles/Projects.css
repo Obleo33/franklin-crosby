@@ -1,20 +1,17 @@
-#projects
-{
+#projects {
     width: 70%;
     padding-bottom: 75px;
 
     color: #333;
 }
 
-.projects-title
-{
+.projects-title {
     margin-top: 75px;
 
-    background-image: url('../../src/assets/projects-title.svg');
+    background-image: url('../../src/assets/projects-title.png');
 }
 
-.project
-{
+.project {
     display: flex;
 
     margin: 10px 0;
@@ -24,8 +21,7 @@
     flex-basis: 49%;
 }
 
-.project-title
-{
+.project-title {
     font-size: 25px;
     font-weight: 700;
 
@@ -36,16 +32,14 @@
     border-radius: 0 30px 0 0;
 }
 
-.project section
-{
+.project section {
     display: flex;
     flex-direction: column;
 
     justify-content: space-around;
 }
 
-.project-img
-{
+.project-img {
     width: 250px;
     height: 250px;
     margin: 10px 20px;
@@ -59,46 +53,37 @@
     background-size: cover;;
 }
 
-.project-img:hover
-{
+.project-img:hover {
     opacity: .5;
 }
 
-.jetfuel-img
-{
+.jetfuel-img {
     background-image: url('../../src/assets/projects/jetfuel.png');
 }
 
-.movingshadows-img
-{
+.movingshadows-img {
     background-image: url('../../src/assets/projects/movingshadows.png');
 }
 
-.wbwr-img
-{
+.wbwr-img {
     background-image: url('../../src/assets/projects/wbwr.png');
 }
 
-.project-desctiption
-{
+.project-desctiption {
     padding-right: 20px;
 }
 
-.project-links a
-{
+.project-links a {
     margin: 0 10px 0 0;
 }
 
 
-@media (max-width: 1000px)
-{
-    .project
-    {
+@media (max-width: 1000px) {
+    .project {
         flex-direction: column;
     }
 
-    .project-img
-    {
+    .project-img {
         position: relative;
 
         width: 100%;
@@ -107,43 +92,34 @@
         background-position: top;
     }
 
-    .project section
-    {
+    .project section {
         margin: 10px;
     }
 
-    .project-description
-    {
+    .project-description {
         width: 90%;
     }
 }
 
-@media (max-width: 750px)
-{
-    .projects-title
-    {
+@media (max-width: 750px) {
+    .projects-title {
         font-size: 150px;
     }
 
-    .project-description
-    {
+    .project-description {
         font-size: 16px;
     }
 }
 
-@media (max-width: 650px)
-{
-    .projects-title
-    {
+@media (max-width: 650px) {
+    .projects-title {
         height: 200px;
         margin-bottom: 0;
     }
 }
 
-@media (max-width: 400px)
-{
-    .projects-title
-    {
+@media (max-width: 400px) {
+    .projects-title {
         height: 150px;
     }
 }
