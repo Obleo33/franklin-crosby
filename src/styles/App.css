@@ -21,16 +21,14 @@
   rgb(13,201,255);
 */
 
-#app
-{
+#app {
     display: flex;
     flex-direction: column;
 
     align-items: center;
 }
 
-.hero
-{
+.hero {
     position: relative;
 
     display: flex;
@@ -49,20 +47,18 @@
     justify-content: center;
 }
 
-a:link
-{
+a:link {
     color: inherit;
 }
 
-.section-title
-{
+.section-title {
     height: 400px;
     margin: 0 0 -60px 0;
 
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
-@media (max-width: 500px)
-{
+@media (max-width: 500px) {
 }
