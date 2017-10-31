@@ -9,7 +9,6 @@
     flex-direction: column;
 
     width: 70%;
-    min-height: 100%;
     padding-bottom: 75px;
 
     color: #333;
@@ -61,7 +60,7 @@
 
 @media(max-width: 750px) {
     .about-title {
-        height: 300px;
+        height: 200px;
     }
 
     .about-name {
