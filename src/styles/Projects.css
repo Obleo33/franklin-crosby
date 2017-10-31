@@ -101,7 +101,7 @@
 
 @media (max-width: 750px) {
     .projects-title {
-        height: 300px;
+        height: 200px;
     }
 
     .project-description {
@@ -109,13 +109,7 @@
     }
 }
 
-@media (max-width: 650px) {
-    .projects-title {
-        height: 150px;
-    }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .projects-title {
         height: 150px;
     }
