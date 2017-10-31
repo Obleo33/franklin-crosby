@@ -34,7 +34,7 @@
     display: flex;
 
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
     background: rgba(255, 255, 255, .5)
     url('../../src/assets/mirror_horizontal.png');
