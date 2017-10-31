@@ -60,7 +60,7 @@
 
 @media(max-width: 750px) {
     .about-title {
-        height: 200px;
+        height: 200px !important;
     }
 
     .about-name {
@@ -74,7 +74,7 @@
 
 @media (max-width: 500px) {
     .about-title {
-        height: 150px;
+        height: 150px !important;
     }
 
     .about-name {

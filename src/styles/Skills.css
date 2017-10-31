@@ -52,7 +52,7 @@ li {
     }
 
     .skills-title {
-        height: 200px;
+        height: 200px !important;
         margin-top: 35px;
     }
 
@@ -65,7 +65,7 @@ li {
 
 @media (max-width: 500px) {
     .skills-title {
-        height: 150px;
+        height: 150px !important;
     }
 
     .skills h3 {
