@@ -35,16 +35,6 @@
 
     width: 100vw;
     min-height: 100vh;
-
-    background: rgba(255, 255, 255, .5)
-    url('../../src/assets/mirror_horizontal.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-
-    align-items: center;
-    justify-content: center;
 }
 
 a:link {
