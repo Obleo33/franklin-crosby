@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import logo from '../assets/logo_rotate.svg'
 
 import Nav from '../components/Nav'
 import About from '../components/About'
@@ -13,6 +12,8 @@ class App extends Component {
     super()
     this.state = {
       viewMenu: false,
+      viewIndex: 0,
+      previousIndex: 0,
     }
   }
 
@@ -20,22 +21,28 @@ class App extends Component {
     this.setState({ viewMenu: !this.state.viewMenu })
   }
 
+  handleView(e) {
+    this.setState({ previousIndex: this.state.viewIndex,
+                    viewIndex: e.target.value })
+  }
+
+  view(viewIndex) {
+    let viewArr = [<About />, <Skills />, <Projects />, <Contact />]
+
+    return viewArr[viewIndex]
+  }
+
   render() {
     return (
      <div id="app">
         <Nav viewMenu={ this.state.viewMenu } 
-             navClick={ this.navClick.bind(this) }/>
+             navClick={ this.navClick.bind(this) }
+             handleView={ this.handleView.bind(this) }/>
 
-        <section className="hero">
-          <About />
+        <section className="view">
+          { this.view(this.state.viewIndex) }
         </section>
 
-
-        <Skills />
-
-        <Projects />
-
-        <Contact />
       </div>
     );
   }

@@ -17,10 +17,10 @@ const Nav = (props) => {
 			<h1 className="myname">FRANKLIN<span>CROSBY</span></h1>
 
 			{ props.viewMenu && <ul className="nav-links">
-				<a href="#about"><li>HELLO</li></a>
-				<a href="#skills"><li>SKILLS</li></a>
-				<a href="#projects"><li>PROJECTS</li></a>
-				<a href="#contact"><li>CONTACT</li></a>
+				<li onClick={props.handleView} value="0">HELLO</li>
+				<li onClick={props.handleView} value="1">PROJECTS</li>
+				<li onClick={props.handleView} value="2">SKILLS</li>
+				<li onClick={props.handleView} value="3">CONTACT</li>
 			</ul>}
 			<div onClick={ props.navClick } className="nav-button" style={menuStyle(props.viewMenu)}></div>
 		</nav>
