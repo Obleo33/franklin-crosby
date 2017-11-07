@@ -40,11 +40,3 @@
 a:link {
     color: inherit;
 }
-
-.section-title {
-    height: 300px;
-    margin-top: 90px !important;
-
-    background-repeat: no-repeat;
-    background-size: contain;
-}

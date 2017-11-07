@@ -3,33 +3,34 @@
     font-size: 18px;
     font-weight: 300;
 
-    position: relative;
-
     display: flex;
     flex-direction: column;
 
-    width: 70%;
-    padding-bottom: 75px;
-
     color: #333;
+    min-height: 100vh;
 
     justify-content: center;
+    background-color: #FFC40D;
 }
 
 .about-title {
-    background-image: url('../../src/assets/about-title.svg');
+    text-align: center;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 200px;
+    font-weight: 100;
+    transform: rotate(-20deg);
+    margin: 0;
 }
 
 .about-text {
     display: flex;
     flex-direction: column;
-
-    align-items: flex-end;
+    text-align: center;
 }
 
 .about-name {
     font-family: 'Exo 2', sans-serif;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 100;
 
     margin: 5px 10px;
@@ -40,27 +41,18 @@
 }
 
 #about p {
+    width: 70%;
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
 
-    margin: 0 10px;
+    margin: 0 auto;
 
     text-align: justify;
 }
 
-@media(max-width: 1000px) {
-    .about-name {
-        font-size: 40px;
-    }
-
-    #about p {
-        font-size: 30px;
-    }
-}
-
 @media(max-width: 750px) {
     .about-title {
-        height: 200px !important;
+        font-size: 175px;
     }
 
     .about-name {
@@ -74,7 +66,7 @@
 
 @media (max-width: 500px) {
     .about-title {
-        height: 150px !important;
+        font-size: 150px;
     }
 
     .about-name {
