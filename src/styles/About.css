@@ -6,25 +6,29 @@
     display: flex;
     flex-direction: column;
 
-    color: #333;
     min-height: 100vh;
 
+    color: #333;
+    background-color: #ffc40d;
+
     justify-content: center;
-    background-color: #FFC40D;
 }
 
 .about-title {
-    text-align: center;
     font-family: 'Mr Dafoe', cursive;
     font-size: 200px;
     font-weight: 100;
-    transform: rotate(-20deg);
+
     margin: 0;
+
+    transform: rotate(-20deg);
+    text-align: center;
 }
 
 .about-text {
     display: flex;
     flex-direction: column;
+
     text-align: center;
 }
 
@@ -41,10 +45,10 @@
 }
 
 #about p {
-    width: 70%;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
+    font-size: 25px;
 
+    width: 70%;
     margin: 0 auto;
 
     text-align: justify;

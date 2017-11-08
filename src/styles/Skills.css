@@ -3,13 +3,13 @@
 
     width: 100vw;
     height: 100vh;
+    margin-top: 75px;
     padding: 10px 0 75px;
 
     color: #333;
     background-color: #0dc9ff;
 
     justify-content: center;
-    margin-top: 75px;
 }
 
 .skills-container {
@@ -20,8 +20,10 @@
     font-family: 'Mr Dafoe', cursive;
     font-size: 200px;
     font-weight: 100;
-    transform: rotate(-20deg);
+
     margin: 0 0 20px;
+
+    transform: rotate(-20deg);
     text-align: center;
 }
 
