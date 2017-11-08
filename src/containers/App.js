@@ -23,7 +23,8 @@ class App extends Component {
 
   handleView(e) {
     this.setState({ previousIndex: this.state.viewIndex,
-                    viewIndex: e.target.value })
+                    viewIndex: e.target.value, 
+                    viewMenu: false})
   }
 
   view(viewIndex) {

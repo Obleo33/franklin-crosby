@@ -3,9 +3,7 @@
     padding-bottom: 75px;
 
     color: #333;
-    margin-top: 100px;
     display: flex;
-    align-items: center;
     flex-direction: column;
 
 }
@@ -17,6 +15,7 @@
     transform: rotate(-20deg);
     margin: 0 0 20px;
     text-align: center;
+    margin-top: 100px;
 }
 
 .project {
@@ -33,7 +32,6 @@
     font-size: 25px;
     font-weight: 700;
 
-    height: 40px;
     margin: 5px 0;
 
     color: #0dc9ff;
@@ -66,6 +64,7 @@
 }
 
 .project-desctiption {
+    font-family: 'Cormorant Garamond', serif;
     padding-right: 20px;
 }
 
@@ -99,7 +98,7 @@
 
 @media (max-width: 750px) {
     .projects-title {
-        height: 200px !important;
+        font-size: 150px;
     }
 
     .project-description {
@@ -107,8 +106,8 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .projects-title {
-        height: 150px !important;
+        font-size: 90px
     }
 }

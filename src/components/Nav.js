@@ -16,7 +16,7 @@ const Nav = (props) => {
 
 			<h1 className="myname">FRANKLIN<span>CROSBY</span></h1>
 
-			<ul className="nav-links">
+			<ul className={props.viewMenu? "nav-links": "nav-links hidden"}>
 				<li className="hello-nav nav-link" 
 					onClick={props.handleView} 
 					value="0">HELLO</li>
