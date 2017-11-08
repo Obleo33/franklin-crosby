@@ -25,8 +25,9 @@
     font-size: 30px;
     font-weight: 100;
 
-    color: #0dc9ff;
     margin: 0 0 0 120px;
+
+    color: #0dc9ff;
 }
 
 .myname span {
@@ -34,22 +35,29 @@
 }
 
 .nav-links {
+    font-size: 18px;
+
     position: absolute;
-    display: flex;
     right: 10px;
     bottom: 0;
-    font-size: 18px;
+
+    display: flex;
 }
 
 .nav-link {
     font-family: 'Exo 2', sans-serif;
-    color: #333;
+
     display: flex;
+
+    width: 100px;
+    height: 40px;
+
+    text-align: center;
+
+    color: #333;
+
     align-items: center;
     justify-content: center;
-    height: 40px;
-    width: 100px;
-    text-align: center;
 }
 
 .nav-links li:hover {
@@ -59,7 +67,7 @@
 }
 
 .hello-nav {
-    background-color:#ffc40d;
+    background-color: #ffc40d;
 }
 
 .projects-nav {
@@ -71,7 +79,7 @@
 }
 
 .contact-nav {
-    background-color: #7A00FF;
+    background-color: #ccc;
 }
 
 .nav-button {
@@ -96,6 +104,7 @@
 
     .nav-link {
         font-size: 12px;
+
         width: 75px;
     }
 }
@@ -123,11 +132,12 @@
     }
 
     .nav-link {
-        background-color: unset;
-        color: #ffc40d;
         font-size: 18px;
-        justify-content: flex-start;
 
+        color: #ffc40d;
+        background-color: unset;
+
+        justify-content: flex-start;
     }
 
     .nav-links {
@@ -135,8 +145,8 @@
         top: 75px;
         right: 0;
         bottom: unset;
+
         flex-direction: column;
-        align-content: flex-start;
 
         width: 90px;
         padding-right: 30px;
@@ -148,5 +158,7 @@
 
         color: #ffc40d;
         background-color: #333;
+
+        align-content: flex-start;
     }
 }

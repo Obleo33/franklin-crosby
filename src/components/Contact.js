@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
 	return(
 		<footer id="contact">
-			<h2>CONTACT</h2>
+			<h2 className="contact-title">Contact</h2>
 			<p>lets collaborate <a href="mailto:obleo33@gmail.com">obleo33@gmail.com</a></p>
 			
 			<div className="contact-links">

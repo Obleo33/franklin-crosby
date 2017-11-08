@@ -1,25 +1,31 @@
 #contact {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+
     display: flex;
     flex-direction: column;
 
     width: 100vw;
     height: 300px;
+    min-height: 100vh;
     margin-top: 20px;
 
-    background-color: rgba(0, 0, 0, .2);
+    color: #333;
+    background-color: #ccc;
 
-    justify-content: center;
     align-items: center;
 }
 
-#contact h2 {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
+.contact-title {
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 200px;
+    font-weight: 100;
 
-    margin-bottom: 10px;
+    margin: 0 0 20px;
+    margin-top: 100px;
 
-    color: #ff0dbd;
+    transform: rotate(-20deg);
+    text-align: center;
 }
 
 .contact p {
@@ -64,4 +70,17 @@
 
 .source-link {
     font-size: 14px;
+}
+
+@media (max-width: 750px) {
+    .contact-title {
+        font-size: 150px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .contact-title {
+        font-size: 90px;
+    }
 }
