@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   view(viewIndex) {
-    let viewArr = [<About />, <Skills />, <Projects />, <Contact />]
+    let viewArr = [<About />, <Projects />, <Skills />, <Contact />]
 
     return viewArr[viewIndex]
   }
