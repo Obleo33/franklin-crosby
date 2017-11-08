@@ -9,7 +9,6 @@
 
     background-color: #333;
 
-    justify-content: center;
     align-items: center;
 }
 
@@ -27,6 +26,7 @@
     font-weight: 100;
 
     color: #0dc9ff;
+    margin: 0 0 0 120px;
 }
 
 .myname span {
@@ -34,39 +34,43 @@
 }
 
 .nav-links {
-    position: fixed;
-    top: 75px;
-    right: 0;
-
-    flex-direction: column;
-
-    width: 115px;
-    padding-right: 30px;
-    padding-bottom: 15px;
-
-    list-style: none;
-
-    text-align: right;
-
-    color: #ffc40d;
-    border-radius: 0 0 0 20px;
-    background-color: #333;
+    position: absolute;
+    display: flex;
+    right: 10px;
+    bottom: 0;
 }
 
 .nav-links li {
     font-family: 'Exo 2', sans-serif;
-
-    margin-bottom: 15px;
-}
-
-.nav-links a:visited {
-    color: #ffc40d;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    text-align: center;
 }
 
 .nav-links li:hover {
     cursor: pointer;
 
     color: #ff0dbd;
+}
+
+.hello-nav {
+    background-color:#ffc40d;
+}
+
+.projects-nav {
+    background-color: #fff;
+}
+
+.skills-nav {
+    background-color: #0dc9ff;
+}
+
+.contact-nav {
+    background-color: #7A00FF;
 }
 
 .nav-button {
@@ -97,5 +101,28 @@
         font-size: 20px;
 
         margin: 26px 30px;
+    }
+    .nav-button {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 75px;
+        right: 0;
+
+        flex-direction: column;
+
+        width: 115px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+
+        list-style: none;
+
+        text-align: right;
+
+        color: #ffc40d;
+        border-radius: 0 0 0 20px;
+        background-color: #333;
     }
 }

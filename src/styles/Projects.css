@@ -3,10 +3,20 @@
     padding-bottom: 75px;
 
     color: #333;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .projects-title {
-    background-image: url('../../src/assets/projects-title.svg');
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 200px;
+    font-weight: 100;
+    transform: rotate(-20deg);
+    margin: 0 0 20px;
+    text-align: center;
 }
 
 .project {
@@ -53,18 +63,6 @@
 
 .project-img:hover {
     opacity: .5;
-}
-
-.jetfuel-img {
-    background-image: url('../../src/assets/projects/jetfuel.png');
-}
-
-.movingshadows-img {
-    background-image: url('../../src/assets/projects/movingshadows.png');
-}
-
-.wbwr-img {
-    background-image: url('../../src/assets/projects/wbwr.png');
 }
 
 .project-desctiption {
