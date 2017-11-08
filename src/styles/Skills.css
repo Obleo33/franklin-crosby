@@ -9,7 +9,7 @@
     background-color: #0dc9ff;
 
     justify-content: center;
-    align-items: center;
+    margin-top: 75px;
 }
 
 .skills-container {
@@ -17,7 +17,12 @@
 }
 
 .skills-title {
-    background-image: url('../../src/assets/skills-title.svg');
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 200px;
+    font-weight: 100;
+    transform: rotate(-20deg);
+    margin: 0 0 20px;
+    text-align: center;
 }
 
 .skills h3 {
@@ -47,13 +52,8 @@ li {
 }
 
 @media (max-width: 750px) {
-    #skills {
-        height: unset;
-    }
-
     .skills-title {
-        height: 200px !important;
-        margin-top: 35px;
+        font-size: 150px;
     }
 
     .listed-skills {
@@ -65,7 +65,7 @@ li {
 
 @media (max-width: 500px) {
     .skills-title {
-        height: 150px !important;
+        font-size: 100px;
     }
 
     .skills h3 {
