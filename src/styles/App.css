@@ -33,3 +33,9 @@
 
     justify-content: center;
 }
+
+.slide-in {
+    transform: translateX(50%);
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
