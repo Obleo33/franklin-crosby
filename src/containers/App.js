@@ -7,6 +7,7 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 
+
 class App extends Component {
   constructor(){
     super()
@@ -14,6 +15,7 @@ class App extends Component {
       viewMenu: false,
       viewIndex: 0,
       previousIndex: 0,
+      windowHeight: 0
     }
   }
 
@@ -28,9 +30,14 @@ class App extends Component {
   }
 
   view(viewIndex) {
-    let viewArr = [<About />, <Projects />, <Skills />, <Contact />]
+    let viewArr = [<About scroll={this.scroll.bind(this)} />, <Projects scroll={this.scroll.bind(this)} />, <Skills scroll={this.scroll.bind(this)} />, <Contact scroll={this.scroll.bind(this)} />]
 
     return viewArr[viewIndex]
+  }
+
+  scroll(windowHeight) {
+    console.log(windowHeight);
+    this.setState({ windowHeight })
   }
 
   render() {

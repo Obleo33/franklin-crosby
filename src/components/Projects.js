@@ -1,48 +1,55 @@
-import React from 'react';
+import React, { Component } from 'react';
 import projects from '../../src/helper/projectArray.js'
 
-const Projects = () => {
-	return(
-		<section id="projects">
-			<h2 className=" section-title projects-title">Projects</h2>
+class Projects extends Component {
 
-			<section className="projects-container">
+	componentDidMount() {
+		this.props.scroll(window.innerHeight)
+	}
 
-				{ projects.map((project, i) => {
+	render() {
+		return(
+			<section id="projects">
+				<h2 className=" section-title projects-title">Projects</h2>
 
-					let projectStyle = {
-						backgroundImage: `url(${project.imagePath})`
-					}
+				<section className="projects-container">
 
-					return (
-						<article className="project" key={i}>
+					{ projects.map((project, i) => {
 
-							<a href={ project.live !== null? project.live: project.github } 
-							   target="_blank" rel="noopener noreferrer">
+						let projectStyle = {
+							backgroundImage: `url(${project.imagePath})`
+						}
 
-								<div style={ projectStyle } 
-									 className="project-img jetfuel-img" 
-									 alt={ project.projectTitle + " snapshot" }></div>
+						return (
+							<article className="project" key={i}>
 
-							</a>
+								<a href={ project.live !== null? project.live: project.github } 
+								   target="_blank" rel="noopener noreferrer">
 
-							<section>
-								<h3 className="project-title">{project.projectTitle}</h3>
-								<p className="project-desctiption">{project.projectDescription}</p>
+									<div style={ projectStyle } 
+										 className="project-img jetfuel-img" 
+										 alt={ project.projectTitle + " snapshot" }></div>
 
-								<div className="project-links">
-									{ project.live !== null && <a href="" target="_blank" rel="noopener noreferrer">Live</a> }
-									{ project.github !== null && <a href="" target="_blank" rel="noopener noreferrer">GitHub</a> }
-								</div>
+								</a>
 
-							</section>
-						</article>
-					)
-				}) }
+								<section>
+									<h3 className="project-title">{project.projectTitle}</h3>
+									<p className="project-desctiption">{project.projectDescription}</p>
 
+									<div className="project-links">
+										{ project.live !== null && <a href={project.live} target="_blank" rel="noopener noreferrer">Live</a> }
+										{ project.github !== null && <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a> }
+									</div>
+
+								</section>
+							</article>
+						)
+					}) }
+
+				</section>
 			</section>
-		</section>
-	)
+		)
+	}
 }
 
 export default Projects;
